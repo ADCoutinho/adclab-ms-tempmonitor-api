@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "/Users/adriano.coutinho/Library/Caches/pypoetry/virtualenvs/adclab-ms-tempmonitor-api-svY7D0yp-py3.9",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E203",
+        "--ignore=E266",
+        "--ignore=E501",
+        "--ignore=W503",
+        "--max-line-length=88",
+        "--select = B,C,E,F,W,T4,B9",
+        "--max-complexity = 18"
+    ]
+}

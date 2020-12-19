@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "adclab-ms-tempmonitor-api"
+version = "0.1.0"
+description = "API to handle all sensors inputs"
+authors = ["Adriano Coutinho <adriano.d.coutinho@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^1.1.2"
+requests = "^2.25.1"
+Flask-RESTful = "^0.3.8"
+flask-mongoengine = "^1.0.0"
+DateTime = "^4.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+bandit = "^1.7.0"
+Flask-Lint = "^0.1.dev20171129"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
